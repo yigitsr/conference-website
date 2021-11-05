@@ -235,7 +235,7 @@ table td{
 	border-bottom: 1px solid #4e4e4e;
 }
 
-tr:nth-child(8) { background-color:  #c4c2c2;}
+/* tr:nth-child(8) { background-color:  #c4c2c2;} */
 
 #tableLastHour{
 	background-color: #fff;
