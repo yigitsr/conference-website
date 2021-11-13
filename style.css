@@ -361,10 +361,10 @@ textarea:focus{
 .location{
 	width: 100%;
 	height: 100%;
-	/* background-image: url('img/stagePurple.jpg');	 */
-	background-size: cover;
+	background-image: url('img/mapLtl.jpg');	
+	background-size: contain ;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position:center ; 
 }
 
 /* Responsive media queries */
