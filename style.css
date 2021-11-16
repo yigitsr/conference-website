@@ -1,6 +1,6 @@
 /* color palette */
 /* black: #000000;
-black2: #1B1B1B;
+black2: #050404;
 gray: #555555;
 darker gray: #202020; */
 
@@ -13,7 +13,7 @@ html, body {
 }
 
 body{
-	background-color: #e9f1f7;
+	background-color: #ffffff;
 } 
 
 .dontShow{
@@ -211,8 +211,9 @@ h4{
 
 #timetable{
 	width: 100%;
-	background-color: #1B1B1B;
-	padding-top: 2em;
+	background-color: #050404;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
 }
 
 table{
@@ -368,7 +369,7 @@ textarea:focus{
 }
 
 /* Responsive media queries */
-@media	(max-width: 840px){ /* tablets in general: 1260 * 2/3 */
+@media	(max-width: 840px){ 
 	
 	.two_columns{
 		width: 85%;
@@ -384,7 +385,7 @@ textarea:focus{
 
 }
 
-@media	(max-width: 630px){ /* 1260 / 2 */
+@media	(max-width: 630px){ 
 	
 	.column{
 		flex-basis: 90%; /* column becomes single-column */
@@ -442,7 +443,7 @@ textarea:focus{
 
 }
 
-@media (max-width: 420px )	{ /* 1260 / 3 */
+@media (max-width: 420px )	{ 
 
 	header{
 		height: auto;
@@ -451,16 +452,18 @@ textarea:focus{
 
 	header > img{
 		float: none;
-		width: 120px;
-		margin: 0 auto;
+		width: 100px;
+		margin: -0 auto;
+		padding-top: 3.3em;
 	}
 
 	header p{
 		color: #ffffff;
+		font-size: 1.2em;
 	}
 
 	table{
-		font-size: 10px;
+		font-size: 12px;
 		line-height: 14px;
 
 	}
