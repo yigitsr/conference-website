@@ -1,0 +1,122 @@
+/* Responsive media queries */
+@media	(max-width: 840px){ 
+	
+	.two_columns{
+		width: 85%;
+	}
+
+	.card{
+		flex-basis: 40%;
+	}	
+
+	.border{
+		width: 85%;
+	}
+
+}
+
+@media	(max-width: 630px){ 
+	
+	.column{
+		flex-basis: 90%; /* column becomes single-column */
+	}
+
+	header{
+		background-image: url('img/bgMainBlur.jpg');
+			
+	}
+
+	header p{
+		color: #ffffff;
+		margin: 0;
+	}
+
+	h1{
+		text-align: center;
+		padding-left: 10%;
+		padding-top: 63px; 
+	}
+
+	header > img{
+		float: right;
+		width: 60px;
+		margin-top: 1.5em;;
+		margin-right: 2em;
+	}
+
+	.card{
+		flex-basis: 92%;
+	}
+
+	table	{
+		width: 100%;
+		box-shadow: none;
+		font-size: 12px;
+		line-height: 16px;
+	}
+	
+	#timetable{
+		background-color: #fff;
+	}
+
+	.column{
+		padding: 10px;
+
+	}
+
+	.modalDialog > div	{
+		width: 74%;
+	}
+	.modalDialog p	{
+		margin-top: 12px;
+	}
+
+}
+
+@media (max-width: 420px )	{ 
+
+	header{
+		height: auto;
+		padding-bottom: 3%;
+	}
+
+	header > img{
+		float: none;
+		width: 100px;
+		margin: -0 auto;
+		padding-top: 3.3em;
+	}
+
+	header p{
+		color: #ffffff;
+		font-size: 1.2em;
+	}
+
+	table{
+		font-size: 12px;
+		line-height: 14px;
+
+	}
+
+	h1{
+		padding-top: 0;
+	}
+
+	#locationMap{
+		width: 80%;
+		height: auto;
+		margin-left: 80px;
+	}
+
+	.googleMap{
+		width: 80%;
+		height: auto;
+	}
+
+	#location{
+		width: 80%;
+		height: auto;
+
+	}
+
+}

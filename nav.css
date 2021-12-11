@@ -1,0 +1,38 @@
+nav	
+{
+	display: inline;
+	width: 100%;
+	background-color: #555555;
+	box-shadow: 0 1px 12px rgba(0,0,0,0.15);
+	height: 38px;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	overflow: hidden;
+}
+
+ul{
+	text-align: center;
+	padding: 0;
+	margin: 8px 0 0 0;
+}
+
+li{
+	display: inline;
+	flex-direction: row;
+	color: rgba(0,0,0,0.4);
+	font-size: 12px;
+	font-weight: 600;
+	padding: 0 1%;
+}
+
+nav a{
+	text-decoration: none;
+	color: #E9F1F7;
+	transition: color 0.3s ease;
+}
+
+nav a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
