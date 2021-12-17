@@ -122,6 +122,25 @@
 
 @media	(max-width: 630px){ 
 
+	.nav-ul{
+		display: none;
+		flex-direction: row;
+		width: 100%;
+	}
+
+	.nav-ul.show{
+	  display: flex;
+	}
+
+	.nav-ul li a{
+		font-size: .6em;
+		padding: 1em;
+	}
+
+	.hamburger{
+		margin-top: 1rem;
+	    display: block;
+	}
 
 
 	
