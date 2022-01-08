@@ -1,2 +1,2 @@
 # conference-website
-Live demo: https://yisgra.netlify.app
+Live preview: https://yisgra.netlify.app
